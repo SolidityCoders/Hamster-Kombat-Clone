@@ -4,13 +4,16 @@ import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
   // Replace with your Firebase configuration
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyBPeGGz-XZsrbGyXvAptxitSJO6WP3FKNI",
+  authDomain: "telegramss.firebaseapp.com",
+  projectId: "telegramss",
+  storageBucket: "telegramss.appspot.com",
+  messagingSenderId: "510281795152",
+  appId: "1:510281795152:web:6c7eda4041bc7faeb6f355"
 };
+
+
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
